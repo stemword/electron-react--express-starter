@@ -1,0 +1,73 @@
+{
+  "GST_No": [
+    
+  ],
+
+  "Invoice_No": [
+    
+  ],
+  "Invoice_Date": [
+    
+  ],
+  "Comapany_Name": [
+    
+  ],
+  "product_table": 
+  {
+    "S.N.": {
+      "0": "1",
+      "1": ""
+    },
+    "MAKE":
+    {
+      "0": "Rankem",
+      "1": ""
+    },
+    "CATALOGE":
+    {
+      "0": "S2365",
+      "1": ""
+    },
+    "Description of Goods": {
+      "0": "'GLUCO ONE BG-03 BLOOD GLUCOSE :  TEST SRIPS 50   Batch : AYJFO1332   Expiry : 31-Mar-2022   MFG.: MOREPEN LABORATORIES LTD",
+      "1": "CGST"
+    },
+    "HSN NO": {
+      "0": "28331990",
+      "1": ""
+    },
+    "Qty": {
+      "0": "1.00",
+      "1": ""
+    },
+    "Unit": {
+      "0": "500 gm",
+      "1": ""
+    },
+    "Price": {
+      "0": "740.000",
+      "1": ""
+    },
+    "Dis %": {
+      "0": "42.00",
+      "1": ""
+    },
+    "GST %": {
+      "0": "18",
+      "1": ""
+    },
+    "Amount ( )":
+    {
+      "0":"429.2000",
+      "1":""
+    }
+  },
+  "gst_table":
+  {
+
+  },
+  
+  "total_table":
+  []
+
+}

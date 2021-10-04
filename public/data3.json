@@ -1,0 +1,66 @@
+{
+  "GST_No": ["24CIBPP1029H1ZL","24AAIFT6768L1ZH"],
+  "Invoice_No": ["00282/2021"],
+  "Invoice_Date": ["31-12-2020","31-12-2020"],
+  "Company_Name": ["PITRODA TECHNOLOGIES","TRITON ENGINEETRS"],
+  "product_table": {
+    "Sr No": {
+      "0": "1"
+    },
+    "Description": {
+      "0": "BONVARIO MAKE GEAR BOX WITH O/P FLANGE ( Part No.:BLM50F/30:1/P80/B5)"
+    },
+    "HSN/SAC": {
+      "0": "8483"
+    },
+    "GST%": {
+      "0": "18.00"
+    },
+    "Qty.": {
+      "0": "2"
+    },
+    "Unit": {
+      "0": "Nos"
+    },
+    "Rate": {
+      "0": "4530.00"
+    },
+    "Amount": {
+      "0": "9060.00"
+    }
+  },
+
+  "gst_table": {
+    "HSN":{    },
+    "Taxable_value":{
+      "0": "9060.00"
+    },
+    "CGST_Rate":{
+      "0": "9%"
+    },
+    "CGST_Amount":{
+      "0": "815.40"
+    },
+    "SGST_Rate" :{
+      "0": "9%"
+    },
+    "SGST_Amount":{
+      "0": "815.40"
+    },
+    "IGST_Rate" :{    },
+    "IGST_Amount":{    },
+    "GST_Rate" :{    },
+    "GST_Amount":{    }
+  },
+
+  "total_table": {
+    "Total Taxable Value": ["9060.00"],
+    "CGST": ["815.40"],
+    "SGST": ["815.40"],
+    "IGST": [],
+    "Round_off": ["0.20"],
+    "GST": [],
+    "Discount": [],
+    "Grand_total": ["10691.00"]
+  }
+}

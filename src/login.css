@@ -1,0 +1,83 @@
+*,::after,::before {
+	margin: 0; padding: 0;
+	}
+html {
+	line-height: 1.15;
+	-webkit-text-size-adjust: 100%;
+}
+body { margin: 0; padding: 0; background: #f6f6f6; font-family: 'Poppins', sans-serif; overflow: hidden; margin: auto; -webkit-box-align: center; -ms-flex-align: center; align-items: center; -webkit-box-pack: center; -ms-flex-pack: center; justify-content: center; flex-flow: row wrap; -ms-flex-flow: row wrap; }
+.h-full{height: 100vh;}
+.bg-gray{background-color: #fafafa;}
+.left-side-section{justify-content: center;}
+.intro-heading { font-size: 2rem; font-weight: 600; margin: 10px 0;color: #3a3b3c; }
+.intro-text { font-size: 1.15rem; line-height: 1.5; text-align: left; margin: 10px 0 25px; color: #3a3b3c;}
+.right-side-section{display: flex; justify-content: center;align-items: center; color: #3a3b3c;}
+.right-side-section .title{font-size: 1.5rem;color: #3a3b3c;font-weight: 600;margin: 1.5rem 0;}
+.bg-blue { background-color: #4299e1;border-color: #4299e1; }
+.border { border-width: 1px; }
+.w-6 { width: 1.5rem; }
+.h-6 { height: 1.5rem; }
+.border-gray { border-color: #e2e8f0; }
+.signin-signup-link{ color: #4299e1; font-weight: 600;text-decoration: none;}
+.signin-signup-link:hover{color: #2b6cb0;text-decoration: none}
+.submit-btn:hover, .submit-btn:focus { background-color: #63b3ed; }
+.forgot-pass-text{ color: #4a5568;font-weight: 600;text-decoration: none;}
+.forgot-pass-text:hover,.forgot-pass-text:focus {text-decoration: none; color: #2b6cb0; }
+.login-wrapper .form-control{background-color: #edf2f7;font-size: 1rem;padding-top: 0.85rem !important;padding-bottom: 0.85rem !important;}
+.login-wrapper .form-control:focus{ outline: 0; border-color: #4299e1; background-color: #fff;box-shadow: none;}
+input:-ms-input-placeholder,textarea:-ms-input-placeholder { color: #a0aec0; }
+input::-ms-input-placeholder,textarea::-ms-input-placeholder { color: #a0aec0; }
+input::placeholder,textarea::placeholder { color: #a0aec0; }
+[role=button],button { cursor: pointer; }
+.divider {margin-top: 2.5rem !important;margin-bottom: 2.5rem !important;}
+.powerd-text{ display: inline-block; position: relative; top: 5px; margin-left: 10px;}
+.powerd-wrap { position: absolute; bottom: 1.4rem; }
+.google-btn-wrap button { width: 90%; text-align: center; justify-content: center; background-color: rgb(255, 255, 255); display: inline-flex; box-shadow: none !important; color: rgba(0, 0, 0, 0.54) !important; border-radius: 5px !important; font-size: 15px !important; font-weight: 500 !important; font-family: Poppins !important; border: 1.5px solid rgb(128, 128, 128) !important; }
+.login-column{border-radius: 5px; box-shadow: 0px 0px 10px 3px #00000014;}
+.expanceImg{height: 550px !important;}
+/* .nav-closed > .header {
+    display: none;
+} */
+
+.login-section img { max-width: 100%; }
+.login-section .app {background-color: #fff; width: 330px; height: 570px; margin: 2em auto; border-radius: 5px; padding: 1em; position: relative; overflow: hidden; box-shadow: 0 6px 31px -2px rgba(0, 0, 0, .3); }
+.login-section .bg {width: 400px; height: 550px; background: #257aa6; position: absolute; top: -5em; left: 0; right: 0; margin: auto; background-image: url("https://png.pngtree.com/thumb_back/fw800/background/20190221/ourmid/pngtree-blue-creative-gradient-decoration-image_11175.jpg");  background-size: cover; background-repeat: no-repeat; -webkit-clip-path: ellipse(69% 46% at 48% 46%); clip-path: ellipse(69% 46% at 48% 46%); }
+.login-section form {position: absolute; top: 0; left: 0; right: 0; width: 100%; text-align: center; padding: 2em; }
+.login-section header {width: 220px; height: 220px; margin: 1em auto; }
+.login-section .inputs {margin-top: -4em; }
+.login-section .shape {width: 510px; height: 510px; border-radius: 40px; display: block; position: absolute; top: -50px; background: rgb(0 0 0 / 4%); transform: rotate(45deg); right: -262px; }
+.login-section .shape1 {width: 510px; height: 510px; border-radius: 40px; display: block; position: absolute; bottom: -100px; background: rgb(0 0 0 / 4%); transform: rotate(45deg); left: -262px; }
+@media screen and (max-width: 640px) {
+    .login-section .bg {top: -7em; width: 450px; height: 95vh; }
+    .login-section header {width: 90%; height: 250px; }
+    .login-section .inputs {margin: 0; }
+}
+    
+
+@media screen and (max-width: 1410px) {
+    body{font-size: 14px;}
+    .login-wrapper .form-control{background-color: #edf2f7;font-size: 0.75rem;padding-top: 0.5rem !important;padding-bottom: 0.5rem !important;}
+    .intro-heading,.right-side-section .title{font-size: 1.25rem;}
+    .intro-text { font-size: 0.75rem; line-height: 1.25;}
+    .right-side-section{padding-left: .5rem!important;padding-right: .5rem!important;}
+    .right-side-section .title{margin-top: 1.25rem !important; margin-bottom: 1.25rem !important;}
+    .right-side-section .px-4{padding-left: 1rem!important;padding-right: 1rem!important;}
+    .right-side-section input.w-full.py-4.form-control{padding-top: 1rem!important;padding-bottom: 1rem!important;}
+    .btn-lg { padding: .35rem 1rem; font-size: 0.95rem; line-height: 1.5; border-radius: .3rem; }
+    .signin-google span{font-size: 0.85rem; padding: 0;}
+    .signin-google .h-6,.signin-google .w-6{height: 1rem; width: 1rem;}
+    .divider {margin-top: 1.5rem !important;margin-bottom: 1.5rem !important;}
+}
+@media screen and (max-width: 767px) {
+    .powerd-wrap{display: none !important;}
+    .powerd-wrap-mobile{margin: 0 auto !important;}
+    .left-side-section{display: none !important;}
+    .right-side-section {background-color: #fafafa;}
+    .right-side-section .row.w-100 { width: 80% !important;box-shadow: 0 20px 20px -20px rgb(0 0 0 / 30%), 0 0 15px rgb(0 0 0 / 6%); background-color: #fff; border-radius: 4px; padding: 15px 5px; }
+    .right-side-section .title{font-size: 1rem;margin-top: 1rem !important; margin-bottom: 1rem !important;}
+    .powerd-text { top: -10px; }
+
+}
+@media screen and (max-width: 480px){
+    .right-side-section .row.w-100 { width: 100% !important; background-color: #fff; border-radius: 4px; padding: 10px 0px; }
+}

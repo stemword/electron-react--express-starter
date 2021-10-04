@@ -1,0 +1,60 @@
+{
+  "GST_No": ["24CIBPP1029H1ZL", "24ASOPM4593Q1ZR"],
+  "Invoice_No": ["463/21-22"],
+  "Invoice_Date": ["29/12/2021", "29/12/2021"],
+  "Company_Name": ["PITRODA TECHNOLOGIES", "RATHOD MACHINE TOOLS & SPARES"],
+  "product_table": {
+    "SR. no": {
+      "0": "1",
+      "1": "2"
+    },
+    "Description of Goods": {
+      "0": "SAMPLE NUT CI",
+      "1": "HAND WHEEL WITH HANDLE"
+    },
+    "HSN/SAC": {
+      "0": "8465",
+      "1": "8465"
+    },
+    "Quantity": {
+      "0": "1 NOS",
+      "1": "1 NOS"
+    },
+    "Rate": {
+      "0": "750.00",
+      "1": "350.00"
+    },
+    "Disc%": {
+      "0": "",
+      "1": ""
+    },
+    "Amount": {
+      "0": "750.00",
+      "1": "350.00"
+    }
+  },
+
+  "gst_table": {
+    "HSN":          {    },
+    "Taxable_value":{    },
+    "CGST_Rate":    {    },
+    "CGST_Amount":  {    },
+    "SGST_Rate":    {    },
+    "SGST_Amount":  {    },
+    "IGST_Rate" :   {    },
+    "IGST_Amount":  {    },
+    "GST_Rate" :    {    },
+    "GST_Amount":   {    }
+  },
+
+  "total_table": {
+    "Total Taxable Value": ["1,100.00"],
+    "CGST": ["99.00"],
+    "SGST": ["99.00"],
+    "IGST": ["0.00"],
+    "Round_off": ["0.00"],
+    "GST": [],
+    "Discount": [],
+    "Grand_total": ["1298.00"]
+  }
+}

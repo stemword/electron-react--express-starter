@@ -1,0 +1,67 @@
+{
+  "name": "react-electron",
+  "version": "0.1.0",
+  "private": true,
+  "homepage": "./",
+  "main": "public/electron.js",
+  "dependencies": {
+    "axios": "^0.21.1",
+    "body-parser": "^1.19.0",
+    "bootstrap": "^5.0.2",
+    "cors": "^2.8.5",
+    "dotenv": "^10.0.0",
+    "electron-is-dev": "^2.0.0",
+    "electron-log": "^4.4.1",
+    "electron-updater": "^4.3.9",
+    "express": "^4.17.1",
+    "lokijs": "^1.5.12",
+    "morgan": "^1.9.1",
+    "node-sass": "^6.0.1",
+    "path": "^0.12.7",
+    "react": "^17.0.2",
+    "react-data-table-component": "^7.0.0-rc2",
+    "react-datepicker": "^4.1.1",
+    "react-dom": "^17.0.2",
+    "react-google-login": "^5.2.2",
+    "react-hook-form": "^7.12.1",
+    "react-image-magnify": "^2.7.4",
+    "react-notifications": "^1.7.2",
+    "react-redux": "^7.2.4",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "react-table": "^7.7.0",
+    "styled-components": "^5.3.0",
+    "utils": "^0.3.1",
+    "web-vitals": "^1.1.2"
+  },
+  "scripts": {
+    "start": "cp -a ./api/. ./public/api && react-scripts start",
+    "build": "cp -a ./api/. ./public/api && react-scripts build",
+    "test": "react-scripts test",
+    "ele-dev": "concurrently \"cross-env BROWSER=none npm start\" \"wait-on http://localhost:3000 && electron .\"",
+    "ele-build": "npm run build && electron-builder",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "cross-env": "^6.0.3",
+    "electron": "^14.0.1",
+    "electron-builder": "^22.4.1",
+    "wait-on": "^3.3.0"
+  }
+}
